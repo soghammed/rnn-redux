@@ -1,4 +1,6 @@
 rootProject.name = 'RNNv2'
+include ':@react-native-community/async-storage'
+project(':@react-native-community/async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/async-storage/android')
 
 include ':app'
 
